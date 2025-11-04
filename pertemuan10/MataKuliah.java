@@ -29,7 +29,7 @@ public class MataKuliah implements Comparable<MataKuliah> {
 
     @Override
     public String toString() {
-        return kode + " - " + nama + " (" + sks + " SKS)";
+        return kode + " - " + nama + " (" + sks + " SKS) " + " semester: " + semester;
     }
 
     @Override

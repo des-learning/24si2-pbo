@@ -24,6 +24,10 @@ public class ContohComparable {
         System.out.println(m.toString());
     }
 
-    // panggil sort mata kuliah dengan menggunakan MataKuliahSemesterComparator
+    System.out.println("Mata kuliah diurutkan dengan custom comparator");
+    Collections.sort(matakuliah, new MataKuliahSemesterComparator());
+    for (MataKuliah m: matakuliah) {
+        System.out.println(m.toString());
+    }
    } 
 }
