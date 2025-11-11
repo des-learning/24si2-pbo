@@ -25,6 +25,7 @@ public class ContohException {
             }
         } finally {
             System.out.println("Program selesai");
+            input.close();
         }
     }
 }
